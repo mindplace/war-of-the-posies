@@ -1,0 +1,86 @@
+body {
+  font-family: "Almendra SC", serif;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  overflow: hidden;
+}
+
+body .Site {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+}
+
+body .Site .Site-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section h1 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.section .current {
+  padding: 17px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.section .increment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section .increment-container .increment {
+  width: 200px;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.section .increment-container .increment.add {
+  background-color: #98BF88;
+}
+
+.section .increment-container .increment.subtract {
+  background-color: #F2DDA4;
+}
+
+#plants {
+  background-color: #a3c4bc;
+}
+
+#purchases {
+  background-color: #bfd7b5;
+}
+
+#coins {
+  background-color: #E7EFC5;
+}
+
+button#reset {
+  background-color: #413C58;
+  font-family: "Almendra SC", serif;
+  letter-spacing: 1.2px;
+  color: white;
+  font-size: 22px;
+  width: 100%;
+  border: none;
+  padding: 20px;
+}
